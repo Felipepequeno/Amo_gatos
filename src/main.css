@@ -1,0 +1,90 @@
+main {
+    display: flex;
+    justify-content: space-between
+}
+
+.image {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 40px;
+    padding-top: 40px;
+}
+
+.image img {
+    width: 1000px; 
+    height: auto;
+    border-radius: 100px;
+}
+
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    margin-top: 100px;
+    margin-left: 100px;
+    background-color: #090934;
+    border-radius: 20px;
+   font-family:  "DM Sans", sans-serif;
+
+}
+
+.formulario h1 {
+    color: aliceblue;
+    background-color: #8A8AEF;
+    font-family:  "DM Sans", sans-serif;
+    padding: 15px;
+    font-weight: 800;
+    font-size: 38px;
+    border-radius: 10px;
+}
+
+.formulario form {
+    color: #8A8AEF;
+    font-family:  "DM Sans", sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 70px;
+    
+}
+
+.formulario input{
+    background-color: aliceblue;
+    width: 250px;
+    padding: 15px;
+    font-family:  "DM Sans", sans-serif;
+    font-size: 15px;
+    border-radius: 8px;
+    outline: none;
+    
+}
+
+.formulario button {
+    background-color: #8A8AEF;
+    color: aliceblue;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    width: 30%;
+    margin: 15px;
+    
+}
+
+.formulario p {
+    color: aliceblue;
+    font-family:  "DM Sans", sans-serif;
+    font-weight: bolder;
+    margin-top: 20px;
+   
+}
+
+.formulario a {
+    color: aliceblue;
+    font-family:  "DM Sans", sans-serif;
+    margin-top: 5px;
+    font-weight: bolder;
+
+}
+

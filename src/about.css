@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap");
+
+body {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container {
+  display: flex;
+}
+
+.container-about {
+  margin-top: 30px;
+}
+
+.wrapper_p p {
+  font-size: 20px;
+  font-family: "DM Sans", sans-serif;
+}
+
+.font-h1 {
+  font-family: "Rethink Sans", sans-serif;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+}
+
+.wrapper_logo__parceiros img {
+  object-fit: contain;
+}
+
+footer {
+  position: relative;
+}
+
+footer a:hover,
+header a:hover {
+  text-decoration: none;
+}

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amo Gatos</title>
+    <link rel="stylesheet" href="./src/cadastro.css">
+</head>
+<body>
+    
+    <div class="formulario">
+        <form name="form2" method="post" action="grava.jsp">
+            <div class="titulo">
+                <h1>Cadastre-se</h1>
+            </div>
+    
+            <div class="input-box">
+                <label for="firstname">Primeiro nome</label>
+                <input id="firstname" type="text" name="firstname" placeholder="Digite seu primeiro nome" required>
+                <span id="erroNome"></span>
+            </div>
+    
+            <div class="input-box">
+                <label for="lastname">Ultimo nome</label>
+                <input id="lastname" type="text" name="lastname" placeholder="Digite seu ultimo nome" required>
+                <span id="erroLast"></span>
+            </div>
+    
+            <div class="input-box">
+                <label for="email">E-mail</label>
+                <input id="email" type="email" name="email" placeholder="Digite seu E-mail" required>
+                <span id="erroEmail"></span>
+            </div>
+    
+            <div class="input-box">
+                <label for="number">Celular</label>
+                <input id="number" type="tel" name="number" placeholder="(xx) xxxxx-xxxx" required>
+                <span id="erroNumber"></span>
+            </div>
+    
+            <div class="input-box">
+                <label for="password">Senha</label>
+                <input id="password" type="password" name="password" placeholder="Digite sua senha" required>
+                <span id="erroPassword"></span>
+            </div>
+    
+            <div class="input-box">
+                <label for="confirmPassword">Confirme sua senha</label>
+                <input id="confirmPassword" type="password" name="confirmPassword" placeholder="Confirme sua senha" required>
+                <span id="erroConfirm"></span>
+            </div>
+    
+            <div class="botao">
+                <input type="button" value="Salvar" onclick="verificar()">
+            </div>
+        </form>
+    </div>
+
+
+    <script>
+
+        function limpar() {
+            document.querySelector("#firstname").style.border = "";
+            document.querySelector("#lastname").style.border = "";
+            document.querySelector("#email").style.border = "";
+            document.querySelector("#number").style.border = "";
+            document.querySelector("#password").style.border = "";
+            document.querySelector("#confirmPassword").style.border = "";
+
+            document.querySelector("#erroNome").textContent = "";
+            document.querySelector("#erroLast").textContent = "";
+            document.querySelector("#erroEmail").textContent = "";
+            document.querySelector("#erroNumber").textContent = "";
+            document.querySelector("#erroPassword").textContent = "";
+            document.querySelector("#erroConfirm").textContent = "";
+        }
+
+        function verificar() {
+            limpar();
+            var enviar = true;
+
+            var n = document.getElementById("firstname").value.trim();
+            if (n.length == 0) {
+                enviar = false;
+                document.getElementById("firstname").style.border = "1px solid red";
+                document.querySelector("#erroNome").textContent = "Preencha o campo nome." ;
+            }
+
+            var l = document.getElementById("lastname").value.trim();
+            if (l.length == 0) {
+                enviar = false;
+                document.getElementById("lastname").style.border = "1px solid red";
+                document.querySelector("#erroLast").textContent = "Preencha o campo do seu ultimo nome." ;
+            }
+
+            var e = document.getElementById("email").value.trim();
+            var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (!emailPattern.test(e)) {
+                enviar = false;
+                document.getElementById("email").style.border = "1px solid red";
+                document.querySelector("#erroEmail").textContent = "Preencha o campo E-mail corretamente." ;
+            }
+
+            var num = document.getElementById("number").value.trim();
+            var phonePattern = /^(\(\d{2}\) )?\d{4,5}\d{4}$/;
+            if (!phonePattern.test(num)) {
+                enviar = false;
+                document.getElementById("number").style.border = "1px solid red";
+                document.querySelector("#erroNumber").textContent = "Preencha o seu telefone." ;
+            }
+
+            var p = document.getElementById("password").value.trim();
+            if (p.length == 0) {
+                enviar = false;
+                document.getElementById("password").style.border = "1px solid red";
+                document.querySelector("#erroPassword").textContent = "Preencha sua senha." ;
+            }
+
+            var cp = document.getElementById("confirmPassword").value.trim();
+            if (cp.length == 0 || cp !== p) {
+                enviar = false;
+                document.getElementById("confirmPassword").style.border = "1px solid red";
+                document.querySelector("#erroConfirm").textContent = "Confirme sua senha corretamente." ;
+            }
+
+            if (enviar) {
+                document.form2.submit();
+            }
+        
+        }
+
+    </script>
+
+</body>
+</html>

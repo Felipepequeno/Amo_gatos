@@ -1,0 +1,445 @@
+h1{
+    color: #090934;
+    font-family:  "DM Sans", sans-serif;
+    font-weight: bolder;
+    font-weight: 800;
+    font-size: 50px;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+p{
+    color: #090934;
+    font-family:  "DM Sans", sans-serif;
+    font-weight: bolder;
+    font-weight: 800;
+    padding-top: 20px;
+    padding-left: 45px; 
+}
+
+.container {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+.offer__scroll-container {
+    max-height: 70vh;
+    margin-top: 22px;
+    overflow-y: auto;
+    
+}
+
+
+
+.gato1 img {
+    width: 450px;
+    height: 450px;
+    border-radius: 20px;
+    position: relative;
+    display: inline-block;
+    
+}
+
+.gato1-link {
+    position: relative;
+    display: block;
+}
+
+.gato1-info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    background-color: #8A8AEF; 
+    color: white; 
+    font-size: 20px;
+    opacity: 0; 
+    transition: opacity 0.5s ease; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.gato1:hover .gato1-info {
+    opacity: 1; 
+}
+
+.gato1-info span {
+    margin: 5px 0;
+}
+
+.gato2 img {
+    width: 450px;
+    height: 450px;
+    border-radius: 20px;
+    position: relative;
+    display: inline-block;
+
+}
+
+.gato2-link {
+    position: relative;
+    display: block;
+}
+
+.gato2-info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    background-color: #8A8AEF; 
+    color: white; 
+    font-size: 20px;
+    opacity: 0; 
+    transition: opacity 0.5s ease; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.gato2:hover .gato2-info {
+    opacity: 1; 
+}
+
+.gato2-info span {
+    margin: 5px 0;
+}
+
+.gato3 img {
+    width: 450px;
+    height: 450px;
+    border-radius: 20px;
+    position: relative;
+    display: inline-block;
+
+}
+
+.gato3-link {
+    position: relative;
+    display: block;
+}
+
+.gato3-info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    background-color: #8A8AEF; 
+    color: white; 
+    font-size: 20px;
+    opacity: 0; 
+    transition: opacity 0.5s ease; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.gato3:hover .gato3-info {
+    opacity: 1; 
+}
+
+.gato3-info span {
+    margin: 5px 0;
+}
+
+.gato4 img {
+    width: 450px;
+    height: 450px;
+    border-radius: 20px;
+    position: relative;
+    display: inline-block;
+
+}
+
+.gato4-link {
+    position: relative;
+    display: block;
+}
+
+.gato4-info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    background-color: #8A8AEF; 
+    color: white; 
+    font-size: 20px;
+    opacity: 0; 
+    transition: opacity 0.5s ease; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.gato4:hover .gato4-info {
+    opacity: 1; 
+}
+
+.gato4-info span {
+    margin: 5px 0;
+}
+
+.gato5 img {
+    width: 450px;
+    height: 450px;
+    border-radius: 20px;
+    position: relative;
+    display: inline-block;
+ 
+}
+
+.gato5-link {
+    position: relative;
+    display: block;
+}
+
+.gato5-info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    background-color: #8A8AEF; 
+    color: white; 
+    font-size: 20px;
+    opacity: 0; 
+    transition: opacity 0.5s ease; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.gato5:hover .gato5-info {
+    opacity: 1; 
+}
+
+.gato5-info span {
+    margin: 5px 0;
+}
+
+.gato6 img {
+    width: 450px;
+    height: 450px;
+    border-radius: 20px;
+    position: relative;
+    display: inline-block;
+
+}
+
+.gato6-link {
+    position: relative;
+    display: block;
+}
+
+.gato6-info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    background-color: #8A8AEF; 
+    color: white; 
+    font-size: 20px;
+    opacity: 0; 
+    transition: opacity 0.5s ease; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.gato6:hover .gato6-info {
+    opacity: 1; 
+}
+
+.gato6-info span {
+    margin: 5px 0;
+}
+
+.gato7 img {
+    width: 450px;
+    height: 450px;
+    border-radius: 20px;
+    position: relative;
+    display: inline-block;
+
+}
+
+.gato7-link {
+    position: relative;
+    display: block;
+}
+
+.gato7-info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    background-color: #8A8AEF; 
+    color: white; 
+    font-size: 20px;
+    opacity: 0; 
+    transition: opacity 0.5s ease; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.gato7:hover .gato7-info {
+    opacity: 1; 
+}
+
+.gato7-info span {
+    margin: 5px 0;
+}
+
+.gato8 img {
+    width: 450px;
+    height: 450px;
+    border-radius: 20px;
+    position: relative;
+    display: inline-block;
+ 
+}
+
+.gato8-link {
+    position: relative;
+    display: block;
+}
+
+.gato8-info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    background-color: #8A8AEF; 
+    color: white; 
+    font-size: 20px;
+    opacity: 0; 
+    transition: opacity 0.5s ease; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.gato8:hover .gato8-info {
+    opacity: 1; 
+}
+
+.gato8-info span {
+    margin: 5px 0;
+}
+
+.gato9 img {
+    width: 450px;
+    height: 450px;
+    border-radius: 20px;
+    position: relative;
+    display: inline-block;
+ 
+}
+
+.gato9-link {
+    position: relative;
+    display: block;
+}
+
+.gato9-info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    background-color: #8A8AEF; 
+    color: white; 
+    font-size: 20px;
+    opacity: 0; 
+    transition: opacity 0.5s ease; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.gato9:hover .gato9-info {
+    opacity: 1; 
+}
+
+.gato9-info span {
+    margin: 5px 0;
+}
+
+.gato10 img {
+    width: 450px;
+    height: 450px;
+    border-radius: 20px;
+    position: relative;
+    display: inline-block;
+   
+}
+
+.gato10-link {
+    position: relative;
+    display: block;
+}
+
+.gato10-info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    background-color: #8A8AEF; 
+    color: white; 
+    font-size: 20px;
+    opacity: 0; 
+    transition: opacity 0.5s ease; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.gato10:hover .gato10-info {
+    opacity: 1; 
+}
+
+.gato10-info span {
+    margin: 5px 0;
+}
+
+.container a {
+    display: grid;
+    justify-items: center;
+    text-decoration: none;
+    color: #090934;
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 80px;
+    
+}

@@ -1,0 +1,83 @@
+
+
+h3{
+    font-weight: 800;
+    font-size: 40px;
+    margin: 80px;
+}
+
+.subtitulo {
+    font-size: 20px;
+    margin-left: 40px;
+    margin-right: 700px;   
+}
+
+.Whatsapp{
+    background-color: #8A8AEF;
+    color: aliceblue;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    width: 30%;
+    margin: 15px;
+    margin-left: 240px;
+    
+}
+.email{
+    background-color: #8A8AEF;
+    color: aliceblue;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    width: 30%;
+    margin: 15px;
+    margin-left: 240px;
+}
+.Instagram{
+    background-color: #8A8AEF;
+    color: aliceblue;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    width: 30%;
+    margin: 15px;
+    margin-left: 240px;
+}
+.Vakinha{
+    background-color: #8A8AEF;
+    color: aliceblue;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    width: 30%;
+    margin: 15px;
+    margin-left: 240px;
+}
+
+img{
+    width: 15cm;
+   position: fixed;
+    top: 50%;
+    right: 100PX;
+    transform: translate(0,-50%);   
+}
+
+.cep p {
+    position: fixed;
+    top: 80%;
+    right: 200PX;
+    transform: translate(0,-50%);
+
+}
+
+.cep p1{
+
+    position: fixed;
+    top: 83%;
+    right: 165PX;
+    margin: 10px;
+    transform: translate(0,-50%);
+
+}    
+
+
